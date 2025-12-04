@@ -1,0 +1,157 @@
+/* ================================
+   Tradeshow - Container Grid
+   ================================ */
+
+.tradeshowContainer {
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.tradeshowContainer > .gspb_row__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    flex-wrap: wrap;
+    max-width: var(--theme-normal-container-max-width, 1200px);
+}
+
+/* ================================
+   Tradeshow - Single Card
+   ================================ */
+
+.tradeshowCard {
+    box-sizing: border-box;
+    position: relative;
+    padding: var(--gs-row-column-padding, 15px min(3vw, 20px));
+    width: 33.333333333333336%;
+}
+
+@media (max-width: 999.98px) {
+    .tradeshowCard {
+        width: 50%;
+    }
+}
+
+@media (max-width: 689.98px) {
+    .tradeshowCard {
+        width: 100%;
+    }
+}
+
+/* ================================
+   Tradeshow - Image
+   ================================ */
+
+.tradeshowImage img {
+    vertical-align: top;
+    display: inline-block;
+    box-sizing: border-box;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid var(--wp--preset--color--border, #00000012);
+}
+
+/* ================================
+   Tradeshow - Date Row
+   ================================ */
+
+.tradeshowDateRow {
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.tradeshowDateRow > p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Date Icon */
+.tradeshowDateIcon {
+    justify-content: center;
+    display: flex;
+}
+
+.tradeshowDateIcon .gspb_iconBox__wrapper {
+    margin-right: 5px !important;
+}
+
+.tradeshowDateIcon svg {
+    height: 14px !important;
+    width: 14px !important;
+    min-width: 14px !important;
+    margin: 0 !important;
+}
+
+.tradeshowDateIcon svg,
+.tradeshowDateIcon svg path {
+    fill: var(--wp--preset--color--palette-color-12, var(--theme-palette-color-12, #1d1d1b)) !important;
+}
+
+/* Date Text */
+.tradeshowDate {
+    font-size: 12px;
+    font-weight: normal !important;
+    margin: 0;
+    padding: 0;
+}
+
+/* ================================
+   Tradeshow - Info Section
+   ================================ */
+
+.tradeshowInfo {
+    flex-direction: column;
+    box-sizing: border-box;
+    position: relative;
+    padding: 5px 15px 20px 15px;
+}
+
+.tradeshowInfo > p:last-of-type {
+    margin-bottom: 0;
+}
+
+/* Title */
+.tradeshowTitle {
+    font-size: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Subtitle (Pavilion) */
+.tradeshowSubtitle {
+    font-size: 16px;
+    margin: 10px 0 !important;
+    padding: 0 !important;
+}
+
+/* Location */
+.tradeshowLocation {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-bottom: 0 !important;
+}
+
+/* Website Link */
+.tradeshowLink {
+    text-transform: none;
+    font-size: 14px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.tradeshowLink,
+.tradeshowLink a {
+    text-decoration: none;
+}
