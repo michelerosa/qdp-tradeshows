@@ -1,0 +1,133 @@
+# Copyright (C) 2024 QDP
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: QDP Tradeshows Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-12-04 12:00+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Fiere"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Fiera"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Aggiungi Fiera"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Aggiungi Nuova Fiera"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Modifica Fiera"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Nuova Fiera"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Visualizza Fiera"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Cerca Fiere"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Nessuna fiera trovata"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Nessuna fiera nel cestino"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Tutte le Fiere"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Data Inizio"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Data Fine"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Sito Web"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Posizione"
+msgstr ""
+
+#: includes/PostTypes/class-tradeshow.php
+msgid "Logo Fiera"
+msgstr ""
+
+#: includes/Admin/class-metaboxes.php
+msgid "Dettagli Fiera"
+msgstr ""
+
+#: includes/Admin/class-metaboxes.php
+msgid "Errori di validazione:"
+msgstr ""
+
+#: includes/Admin/class-metaboxes.php
+msgid "La data di fine deve essere uguale o successiva alla data di inizio."
+msgstr ""
+
+#: includes/Admin/class-columns.php
+msgid "Logo"
+msgstr ""
+
+#: includes/Admin/class-columns.php
+msgid "Nome"
+msgstr ""
+
+#: includes/Admin/class-columns.php
+msgid "Date"
+msgstr ""
+
+#: includes/Admin/class-admin.php
+msgid "Seleziona Logo"
+msgstr ""
+
+#: includes/Admin/class-admin.php
+msgid "Usa questo logo"
+msgstr ""
+
+#: includes/Admin/class-admin.php
+msgid "Rimuovi"
+msgstr ""
+
+#: includes/Fields/class-field-validator.php
+msgid "Il campo \"%s\" è obbligatorio."
+msgstr ""
+
+#: includes/Fields/class-field-validator.php
+msgid "Il campo \"%s\" deve essere un URL valido."
+msgstr ""
+
+#: includes/Fields/class-field-validator.php
+msgid "Il campo \"%s\" deve essere una data valida (YYYY-MM-DD)."
+msgstr ""
+
+#: includes/Fields/class-field-validator.php
+msgid "Il campo \"%s\" contiene una data non valida."
+msgstr ""
+
+#: includes/Fields/class-field-validator.php
+msgid "Il campo \"%s\" deve essere un'immagine valida."
+msgstr ""

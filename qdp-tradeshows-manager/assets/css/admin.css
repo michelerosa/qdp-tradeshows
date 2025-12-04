@@ -1,0 +1,89 @@
+/**
+ * QDP Tradeshows Manager - Admin Styles
+ */
+
+/* Metabox container */
+.qdp-tradeshow-metabox {
+    padding: 10px 0;
+}
+
+/* Campo singolo */
+.qdp-field {
+    margin-bottom: 20px;
+}
+
+.qdp-field label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #1d2327;
+}
+
+.qdp-field .required {
+    color: #d63638;
+}
+
+/* Input text e url */
+.qdp-field input[type="text"],
+.qdp-field input[type="url"] {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Datepicker */
+.qdp-datepicker {
+    width: 150px !important;
+    cursor: pointer;
+}
+
+/* Campo immagine */
+.qdp-image-field {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.qdp-image-preview {
+    width: 150px;
+    height: 150px;
+    border: 2px dashed #c3c4c7;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f0f0f1;
+    overflow: hidden;
+}
+
+.qdp-image-preview img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.qdp-image-buttons {
+    display: flex;
+    gap: 8px;
+}
+
+/* Colonne lista */
+.column-logo {
+    width: 60px;
+}
+
+.column-dates {
+    width: 200px;
+}
+
+.column-website {
+    width: 150px;
+}
+
+.column-city_country {
+    width: 180px;
+}
+
+/* jQuery UI Datepicker override */
+.ui-datepicker {
+    z-index: 999999 !important;
+}
