@@ -100,7 +100,7 @@
 }
 
 /* Date Text */
-.tradeshowDate {
+h2.tradeshowDate {
     font-size: 12px;
     font-weight: normal !important;
     margin: 0;

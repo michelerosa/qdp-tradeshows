@@ -22,7 +22,7 @@ define('QDP_TRADESHOWS_VIEWER_PATH', plugin_dir_path(__FILE__));
 define('QDP_TRADESHOWS_VIEWER_URL', plugin_dir_url(__FILE__));
 
 // URL endpoint del sito master (MODIFICA QUESTO URL)
-define('QDP_TRADESHOWS_API_URL', 'https://example.com/wp-json/qdp-tradeshows/v1/tradeshows');
+define('QDP_TRADESHOWS_API_URL', 'https://stg-qdpen-qdpcomdev.kinsta.cloud/wp-json/qdp-tradeshows/v1/tradeshows');
 
 // Carica le classi
 require_once QDP_TRADESHOWS_VIEWER_PATH . 'includes/class-i18n.php';
@@ -36,6 +36,19 @@ function register_shortcode(): void {
     add_shortcode('qdp_tradeshows', __NAMESPACE__ . '\\render_shortcode');
 }
 add_action('init', __NAMESPACE__ . '\\register_shortcode');
+
+/**
+ * Carica gli asset CSS
+ */
+function enqueue_assets(): void {
+    wp_enqueue_style(
+        'qdp-tradeshows-viewer',
+        QDP_TRADESHOWS_VIEWER_URL . 'assets/css/css.css',
+        [],
+        QDP_TRADESHOWS_VIEWER_VERSION
+    );
+}
+add_action('wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_assets');
 
 /**
  * Renderizza lo shortcode
