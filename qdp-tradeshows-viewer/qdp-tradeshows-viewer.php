@@ -22,7 +22,7 @@ define('QDP_TRADESHOWS_VIEWER_PATH', plugin_dir_path(__FILE__));
 define('QDP_TRADESHOWS_VIEWER_URL', plugin_dir_url(__FILE__));
 
 // URL endpoint del sito master (MODIFICA QUESTO URL)
-define('QDP_TRADESHOWS_API_URL', 'https://stg-qdpen-qdpcomdev.kinsta.cloud/wp-json/qdp-tradeshows/v1/tradeshows');
+define('QDP_TRADESHOWS_API_URL', 'https://quellidellapizza.com/wp-json/qdp-tradeshows/v1/tradeshows');
 
 // Carica le classi
 require_once QDP_TRADESHOWS_VIEWER_PATH . 'includes/class-i18n.php';
