@@ -150,7 +150,7 @@ class Renderer {
 
         return sprintf(
             '<div class="wp-block-greenshift-blocks-container gspb_container tradeshowInfo">
-                <h1 class="gspb_heading tradeshowTitle">%s</h1>
+                <h1 class="gspb_heading tradeshowTitle" data-no-auto-translation>%s</h1>
                 %s
                 %s
                 <div class="gspb_text tradeshowLink"><a href="%s" target="_blank" rel="noopener">%s</a></div>
